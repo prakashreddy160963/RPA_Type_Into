@@ -8,12 +8,11 @@ export default function PDFReader() {
 
     const [pageNumber, setPageNumber] = useState(1);
 
-    const PDF_File = require('../resources/thebook.pdf');
+    const PDF_File = require('../resources/EmployeeData.pdf');
 
     const onPDFPage = ({ numPages }) => {
         setPdfPages(numPages)
     }
-
 
     const onPrevious = () => {
         if (pageNumber <= 1) {
@@ -55,7 +54,6 @@ export default function PDFReader() {
             <div className="Viewer_Header" >
                 <h2>PDF Viewer</h2>
             </div>
-
             <div className="Reader_Center">
                 <div className="pdf_controls_layout">
                     <button onClick={onPrevious}>Previous</button>
@@ -78,7 +76,6 @@ export default function PDFReader() {
                     </Document>
                 </div>
             </div>
-
         </div >
     );
 }
