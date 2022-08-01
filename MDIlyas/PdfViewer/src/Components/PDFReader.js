@@ -2,19 +2,18 @@ import React, { useState } from "react";
 import "../Styles/PDFReader.css"
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
-// Import PDF
-
-import PDF_File from "../resources/thebook.pdf"
-
 export default function PDFReader() {
 
     const [PdfPages, setPdfPages] = useState(null);
 
     const [pageNumber, setPageNumber] = useState(1);
 
+    const PDF_File = require('../resources/thebook.pdf');
+
     const onPDFPage = ({ numPages }) => {
         setPdfPages(numPages)
     }
+
 
     const onPrevious = () => {
         if (pageNumber <= 1) {
