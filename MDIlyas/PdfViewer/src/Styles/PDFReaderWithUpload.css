@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Viewer_Header {
+    width: 100%;
+    background: teal;
+    padding: 10px;
+    color: #ffffff;
+    box-shadow: 0 0 10px #000;
+}
+
+.Viewer_Header h2 {
+    font-size: 30px;
+}
+
+.Reader_Center {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.pdf_controls_layout {
+    padding: 10px;
+    border-bottom: 2px solid gainsboro;
+    text-align: center;
+}
+
+.pdf_controls_layout p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.pdf_controls_layout button {
+    width: 90px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.Page_Numbers {
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Page_Numbers:hover {
+    border: 1px solid #000;
+    outline: none;
+}
+
+.Doc_Display {
+    margin-top: 20px;
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 50px;
+}
+
+
+.PDF_Upload {
+    padding: 10px;
+    border-bottom: 2px solid gainsboro;
+}
