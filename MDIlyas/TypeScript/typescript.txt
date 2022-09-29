@@ -1,9 +1,0 @@
-
-Type Script Introduction
-
-https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI
-
-Type Script in React js
-
-https://react-typescript-cheatsheet.netlify.app/docs/basic/setup
-
